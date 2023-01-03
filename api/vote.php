@@ -16,13 +16,13 @@
         $_SESSION['groups'] = $groups;
         $_SESSION['status'] = 1;
         echo '<script>
-                    alert("Voting successfull!");
+                    alert("booking successfull!");
                     window.location = "../routes/dashboard.php";
                 </script>';
     }
     else{
         echo '<script>
-                    alert("Voting failed!.. Try again.");
+                    alert("Booking failed!.. Try again.");
                     window.location = "../routes/dashboard.php";
                 </script>';
     }
